@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(./Age5.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: rgba(200 , 190, 198, 0.9);
+    border: 10px solid black;
+    padding: 2rem;
+    max-width: 28rem;
+    width: 90%;
+    text-align: center;
+}
+
+.heading {
+  color: #504a5a;
+  padding: 0.5rem 0;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.calc {
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.label {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.input input[type= "date"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-top: 1rem;
+  background-color: rgba(177, 173, 176, 0.603);
+  color: #504a5a;
+}
+
+.btn {
+  background-color: rgba(177, 173, 176, 0.8);
+  color: #504a5a;
+  padding: 0.5rem 1rem;
+  border: 3px solid black;
+  font-size: 1rem;
+  font-family: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+p {
+ color: black;
+ font-size: 1rem;
+ font-weight: bold;
+ margin-top: 1rem;
+}
+
+@media (max-width: 280px) {
+   .input input[type="date"] {
+    margin-left: -18px ;
+   }
+}
